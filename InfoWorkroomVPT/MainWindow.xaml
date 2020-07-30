@@ -1,0 +1,29 @@
+﻿<Window x:Class="InfoWorkroomVPT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InfoWorkroomVPT"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="1600"
+        Loaded="Window_Loaded" 
+        ResizeMode="NoResize" 
+        WindowState="Maximized"
+        StateChanged="Window_StateChanged"
+        WindowStyle="None"
+        Background="#344250">
+    <Grid>
+        <Canvas>
+            <TextBlock x:Name="nameWorkroom" Text="МАСТЕРСКАЯ ИНФОРМАЦИОННЫЕ КАБЕЛЬНЫЕ СЕТИ" FontSize="45" TextWrapping="Wrap" 
+                       Width="1096" Canvas.Left="175" Canvas.Top="10" FontWeight="Bold" 
+                       Foreground="White" Height="161" TextAlignment="Center"/>
+            <Image Source="/Image/obrazovanie.png" Height="161" Width="130" Canvas.Left="10" Canvas.Top="10" />
+            <Image Source="/Image/vptLogo.png" Height="161" Width="314" Canvas.Left="1276" Canvas.Top="10" />
+
+            <Image x:Name="screenWorkroom" Source="/Image/vptLogo.png" Height="510" Width="1028" Canvas.Left="264" Canvas.Top="171" />
+
+            <TextBlock x:Name="infoWorkroom" Text="Мастерская позволит обучающимся овладеть знаниями по созданию инфраструктуры практически для всех видов телекоммуникационных сетей,  пониманием требований стандартов отрасли и конкретными навыками, которые обучающийся будет  получать на практике." 
+                       FontSize="27" TextWrapping="Wrap" Height="161" Width="1580" Canvas.Top="729" Canvas.Left="10" FontWeight="Bold" Foreground="White"/>
+        </Canvas>
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+C:\Users\Frosty\source\repos\InfoWorkroomVPT\InfoWorkroomVPT\obj\Debug\InfoWorkroomVPT.csprojAssemblyReference.cache
+C:\Users\Frosty\source\repos\InfoWorkroomVPT\InfoWorkroomVPT\obj\Debug\MainWindow.g.cs
+C:\Users\Frosty\source\repos\InfoWorkroomVPT\InfoWorkroomVPT\obj\Debug\App.g.cs
+C:\Users\Frosty\source\repos\InfoWorkroomVPT\InfoWorkroomVPT\obj\Debug\InfoWorkroomVPT_MarkupCompile.cache
+C:\Users\Frosty\source\repos\InfoWorkroomVPT\InfoWorkroomVPT\obj\Debug\InfoWorkroomVPT_MarkupCompile.lref
+C:\Users\Frosty\source\repos\InfoWorkroomVPT\InfoWorkroomVPT\bin\Debug\InfoWorkroomVPT.exe.config
+C:\Users\Frosty\source\repos\InfoWorkroomVPT\InfoWorkroomVPT\bin\Debug\InfoWorkroomVPT.exe
+C:\Users\Frosty\source\repos\InfoWorkroomVPT\InfoWorkroomVPT\bin\Debug\InfoWorkroomVPT.pdb
+C:\Users\Frosty\source\repos\InfoWorkroomVPT\InfoWorkroomVPT\obj\Debug\MainWindow.baml
+C:\Users\Frosty\source\repos\InfoWorkroomVPT\InfoWorkroomVPT\obj\Debug\InfoWorkroomVPT.g.resources
+C:\Users\Frosty\source\repos\InfoWorkroomVPT\InfoWorkroomVPT\obj\Debug\InfoWorkroomVPT.Properties.Resources.resources
+C:\Users\Frosty\source\repos\InfoWorkroomVPT\InfoWorkroomVPT\obj\Debug\InfoWorkroomVPT.csproj.GenerateResource.cache
+C:\Users\Frosty\source\repos\InfoWorkroomVPT\InfoWorkroomVPT\obj\Debug\InfoWorkroomVPT.csproj.CoreCompileInputs.cache
+C:\Users\Frosty\source\repos\InfoWorkroomVPT\InfoWorkroomVPT\obj\Debug\InfoWorkroomVPT.exe
+C:\Users\Frosty\source\repos\InfoWorkroomVPT\InfoWorkroomVPT\obj\Debug\InfoWorkroomVPT.pdb
