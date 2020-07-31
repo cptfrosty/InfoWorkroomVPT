@@ -13,17 +13,23 @@
         WindowStyle="None"
         Background="#344250">
     <Grid>
-        <Canvas>
-            <TextBlock x:Name="nameWorkroom" Text="МАСТЕРСКАЯ ИНФОРМАЦИОННЫЕ КАБЕЛЬНЫЕ СЕТИ" FontSize="45" TextWrapping="Wrap" 
-                       Width="1096" Canvas.Left="175" Canvas.Top="10" FontWeight="Bold" 
-                       Foreground="White" Height="161" TextAlignment="Center"/>
-            <Image Source="/Image/obrazovanie.png" Height="161" Width="130" Canvas.Left="10" Canvas.Top="10" />
-            <Image Source="/Image/vptLogo.png" Height="161" Width="314" Canvas.Left="1276" Canvas.Top="10" />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="199*"/>
+            <RowDefinition Height="524*"/>
+            <RowDefinition Height="177*"/>
+        </Grid.RowDefinitions>
 
-            <Image x:Name="screenWorkroom" Source="/Image/vptLogo.png" Height="510" Width="1028" Canvas.Left="264" Canvas.Top="171" />
-
-            <TextBlock x:Name="infoWorkroom" Text="Мастерская позволит обучающимся овладеть знаниями по созданию инфраструктуры практически для всех видов телекоммуникационных сетей,  пониманием требований стандартов отрасли и конкретными навыками, которые обучающийся будет  получать на практике." 
-                       FontSize="27" TextWrapping="Wrap" Height="161" Width="1580" Canvas.Top="729" Canvas.Left="10" FontWeight="Bold" Foreground="White"/>
-        </Canvas>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="291*"/>
+            <ColumnDefinition Width="984*"/>
+            <ColumnDefinition Width="325*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="1" x:Name="nameWorkroom" Text="МАСТЕРСКАЯ ИНФОРМАЦИОННЫЕ КАБЕЛЬНЫЕ СЕТИ" FontSize="40" TextWrapping="Wrap" Canvas.Left="302" Canvas.Top="10" FontWeight="Bold" 
+                       Foreground="White" TextAlignment="Center"/>
+        <Image Grid.Column="0" Source="/Image/obrazovanie.png" Height="161" Width="130" Canvas.Left="45" Canvas.Top="27" />
+        <Image Grid.Column="2" Source="/Image/vptLogo.png" Height="161" Width="314" Canvas.Left="1239" Canvas.Top="27" />
+        <Image Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" x:Name="screenWorkroom" Source="/Image/vptLogo.png" Height="510" Width="1028"/>
+        <TextBlock Grid.Row="2" Grid.ColumnSpan="3" x:Name="infoWorkroom" Text="Мастерская позволит обучающимся овладеть знаниями по созданию инфраструктуры практически для всех видов телекоммуникационных сетей,  пониманием требований стандартов отрасли и конкретными навыками, которые обучающийся будет  получать на практике." 
+                       FontSize="27" TextWrapping="Wrap" Height="161" Width="1463" FontWeight="Bold" Foreground="White"/>
     </Grid>
 </Window>

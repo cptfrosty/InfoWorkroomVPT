@@ -100,5 +100,17 @@
   <ItemGroup>
     <Resource Include="Image\vptLogo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\206.png" />
+    <Resource Include="Image\215.png" />
+    <Resource Include="Image\216.png" />
+    <Resource Include="Image\217.png" />
+    <Resource Include="Image\220.png" />
+    <Resource Include="Image\224.png" />
+    <Resource Include="Image\226-1.png" />
+    <Resource Include="Image\226.png" />
+    <Resource Include="Image\games.png" />
+    <Resource Include="Image\vr.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
